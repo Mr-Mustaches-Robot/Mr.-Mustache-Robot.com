@@ -418,7 +418,7 @@
 }
 @media only screen and (max-width:1500px) {
   header {
-    height: 24%;
+    height: 23%;
   }
 
   nav ul li a {
@@ -1553,6 +1553,11 @@
            font-size: 9px;
            margin-top: -16px;
          }
+         .middle-section {
+           background-image: url(image/2.png);
+           background-position: top;
+           background-size: cover;
+         }
 }
 
 @media only screen and (max-width:390px) {
@@ -1743,6 +1748,11 @@
        width: 200%;
        font-size:9px;
        margin-top: -16px;
+     }
+     .middle-section {
+       background-image: url(image/2.png);
+       background-position: top;
+       background-size: cover;
      }
 
 
@@ -1936,6 +1946,12 @@
      font-size: 9px;
      margin-top: -18px;
    }
+   .middle-section {
+     background-image: url(image/2.png);
+     background-position: top;
+     background-size: cover;
+   }
+
 
   }
 }
