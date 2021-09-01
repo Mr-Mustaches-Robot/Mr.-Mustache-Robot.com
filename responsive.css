@@ -77,11 +77,11 @@
    }
 
    .For-my-name h4 {
-     font-size: 24px;
+     font-size: 28px;
    }
 
    .For-my-name h3 {
-     font-size: 25px;
+     font-size: 28px;
    }
 
    .Many-word {
@@ -89,7 +89,7 @@
    }
 
    .Many-word h3 {
-     font-size: 22px;
+     font-size: 28px;
    }
 
    .imp {
@@ -97,33 +97,30 @@
      border-radius: 2px;
      font: bold;
    }
+   .bg-color{
+     height: 80%;
+   }
 
    .para-text h4 {
      padding: 0px 25px;
      margin-top: 50px;
-     font-size: 25px;
+     font-size: 27.5px;
      line-height: 110%;
      color: #201f1f;
    }
 
    .para-2 h3 {
-     font-size: 23px;
+     font-size: 27px;
    }
 
    .para-3 h3 {
-     font-size: 23px;
+     font-size: 27px;
    }
    .nav-in ul li a {
      width: 100%;
      line-height: 35px;
    }
 
-   .nav-in ul {
-     border-top: none;
-     left: 100%;
-     top: 15%;
-
-   }
 
    .nav-in ul li a {
      margin-left: -5%;
@@ -486,18 +483,13 @@
       padding: 11px 19px;
       font-size: 42px;
     }
-    .For-my-name {
-      padding: 40px 60px;
-      justify-content: space-between;
-    }
     .For-my-name h3{
-      font-size: 18px;
+      font-size: 20px;
     }
 
     .For-my-name h4 {
       float: right;
-      margin-top: -1.9%;
-      font-size: 18px;
+      font-size: 20px;
     }
 
     .border {
@@ -509,7 +501,7 @@
       padding: 0px 25px;
     }
     .Many-word h3{
-      font-size: 19px;
+      font-size: 21px;
     }
 
     .imp {
@@ -521,15 +513,15 @@
     .para-text h4 {
       padding: 0px 25px;
       margin-top: 50px;
-      font-size: 20px;
+      font-size: 21px;
       line-height: 110%;
       color: #201f1f;
     }
     .para-2 h3{
-      font-size: 19px;
+      font-size: 20px;
     }
     .para-3 h3{
-       font-size: 19px;
+       font-size: 20px;
     }
     .bg-color {
       background-color: #cacaca;
@@ -656,7 +648,7 @@
   .content-area p {
     padding: 6% 0px;
   }
-}
+
 @media only screen and (max-width:1050px) {
   header {
     height: 23%;
@@ -821,6 +813,51 @@
     width: 100%;
     font-size: 12px;
   }
+  .For-my-name h4 {
+    float: right;
+    font-size: 26px;
+  }
+  .For-my-name h3{
+    font-size: 26px;
+  }
+
+  .border {
+    border-bottom: 1px solid #202125;
+    border-radius: 12px;
+  }
+
+  .para-text h4 {
+    padding: 0px 25px;
+    margin-top: 50px;
+    font-size: 21px;
+    line-height: 110%;
+    color: #201f1f;
+  }
+
+  .bg-color {
+    background-color: #cacaca;
+    border-left: 6px solid #202125;
+    border-radius: 5px;
+  }
+
+  .para-2 {
+    padding: 0px 25px;
+    margin-top: 30px;
+  }
+
+  .para-2 h3 {
+    font-size: 21px;
+  }
+
+  .para-3 {
+    padding: 0px 25px;
+    margin-top: 30px;
+  }
+
+  .para-3 h3 {
+    font-size: 21px;
+  }
+
 }
 @media only screen and (max-width:950px) {
   header {
@@ -939,11 +976,7 @@
      border-radius: 40px;
      padding: 5px 35px;
    }
-   }
-    .For-my-name {
-      padding: 40px 60px;
-      justify-content: space-between;
-    }
+  }
 
     .For-my-name h3 {
       font-size: 14px;
@@ -996,7 +1029,7 @@
       border-radius: 5px;
       height: 70%;
     }
-}
+  }
 @media only screen and (max-width:800px) {
   header {
     height: 22%;
@@ -1344,59 +1377,7 @@
      .wrapper h2 {
        font-size: 18px;
      }
-     }
-      .For-my-name h3 {
-        font-size: 13.7px;
-      }
-
-      .For-my-name h4 {
-        float: right;
-        font-size: 13px;
-        display: none;
-      }
-
-      .border {
-        border-bottom: 1px solid #202125;
-        border-radius: 12px;
-      }
-
-      .Many-word {
-        padding: 0px 14px;
-      }
-
-      .Many-word h3 {
-        font-size: 14px;
-      }
-
-      .imp {
-        color: rgb(0, 68, 255);
-        border-radius: 2px;
-        font: bold;
-      }
-
-      .para-text h4 {
-        padding: 0px 15px;
-        margin-top: 50px;
-        font-size: 14px;
-        line-height: 110%;
-        color: #201f1f;
-      }
-
-      .para-2 h3 {
-        font-size: 14px;
-      }
-
-      .para-3 h3 {
-        font-size: 14px;
-      }
-
-      .bg-color {
-        background-color: #cacaca;
-        border-left: 6px solid #202125;
-        border-radius: 5px;
-        height: 120%;
-      }
-
+    }
       
 }
 @media only screen and (max-width:430px) {
