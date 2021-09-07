@@ -1,4 +1,3 @@
-*{
     margin: 0px;
     padding: 0px;
     list-style: none;
@@ -233,7 +232,7 @@
   }
 
   .logo img {
-    width: 55%;
+    width: 50%;
     margin-right: 60px;
   }
 
@@ -319,12 +318,12 @@
 }
 @media only screen and (max-width:1600px) {
   header {
-    height: 21%;
+    height: 20%;
   }
 
   nav ul li a {
     font-size: 19px;
-    line-height: 130px;
+    line-height: 120px;
   }
 
   nav ul ul {
@@ -336,7 +335,7 @@
   }
 
   .logo img {
-    width: 50%;
+    width: 46%;
     margin-right: 60px;
 }
 
@@ -418,22 +417,22 @@
 }
 @media only screen and (max-width:1500px) {
   header {
-    height: 23%;
+    height: 21%;
   }
 
   nav ul li a {
     font-size: 17px;
-    line-height: 140px;
+    line-height: 115px;
   }
   nav ul ul {
-    top: 90px;
+    top: 70px;
   }
 
   nav ul li:hover>ul {
     top: 100px;
   }
   .logo img {
-    width: 44%;
+    width: 40%;
     
   }
   .logo{
@@ -570,30 +569,41 @@
     }
 @media only screen and (max-width:1100px){
   header {
-    height: 29%;
+    height: 21%;
   }
 
   nav ul li a {
-    font-size: 10px;
-    line-height: 80px;
+    font-size: 12px;
+    line-height: 90px;
   }
 
   .logo img {
-    width: 42%;
+    width: 32%;
+  }
+  .logo{
+    margin-right: -150px;
   }
   nav {
     padding: 5px 40px;
   }
-  .middle-section h2 {
-    padding-top: 22%;
+  nav ul ul{
+    top: 60px;
+  }
+  nav ul li:hover>ul {
+    top: 80px;
+  }
+  
+  .middle-section{
+    top: 10%;
+    height: 80%;
   }
   .middle-section h2 {
-    padding-top: 20%;
-    font-size: 250%;
+    padding-top: 17%;
+    font-size: 180%;
 
   }
   .content-area {
-    top: 400px;
+    top: 360px;
     height: 1000px;
   }
 
@@ -604,8 +614,143 @@
 
   .content-area p {
     padding: 6% 0px;
+}
+.wrapper h2{
+  font-size: 18px;
+}
+.Text-work{
+    display: flex;
+    justify-content: center;
+    padding: 10px 0px;
+    margin-left: 21%;
+}
+.Text-work h1{
+    margin-top: 69px;
+    font-size: 40px;
+    padding: 0px -10px;
+    color: #24f2f9;
+}
+.Text-work h1  {
+    color: var(--yellow);
+}
+.only-text {
+    color: #202125;
+   float:right;
+   padding: 10px 19px;
+   font-size: 28px;
+}
+.only-img{
+    margin-left: 42%;
+    background-color: transparent;
+    border-radius: 20px;
+    transition: 0.8s;
 
 }
+.only-img img{
+    background-color:transparent;
+    border-bottom:1px solid #202125;
+    
+}
+.only-img img{
+    width: 12%;
+    transition: 0.8s;
+    border-radius: 15px;
+    padding: 5px 35px;
+}
+.only-img img:hover {
+    background-color: transparent;
+    transition: 0.8s;
+    border-radius: 40px;
+    padding: 5px 35px;
+}
+.For-my-name{
+    padding: 40px 60px;
+    justify-content: space-between;
+}
+.For-my-name h3{
+  font-size: 16px;
+}
+.For-my-name h4{
+    float: right; 
+    margin-top: -1.9%;
+    font-size: 16px;
+}
+.border{
+    border-bottom: 1px solid #202125;
+    border-radius: 12px;
+}
+.Many-word{
+    padding: 0px 25px;
+     }
+.Many-word h3{
+  font-size: 17px;
+}
+.imp{
+    color: rgb(0, 68, 255);
+    border-radius: 2px;
+    font: bold;
+}
+.para-text h4{
+     padding: 0px 25px;
+     margin-top: 50px;
+     font-size: 17px; 
+     line-height: 110%; 
+     color: #201f1f; 
+}
+.bg-color{
+     background-color: #cacaca;
+     border-left: 6px solid #202125;
+     border-radius: 5px;
+}
+.para-2{
+    padding: 0px 25px;
+    margin-top: 30px;
+}
+.para-2 h3{
+    font-size: 17px;
+}
+.para-3{
+    padding: 0px 25px;
+    margin-top: 30px;
+}
+.para-3 h3{
+    font-size: 17px;
+}
+footer{
+    background-color: #202125;
+    padding: 40px 0px;
+    border-radius: 5px;
+    border-top:5px solid rgb(170, 93, 118);
+}
+.footer{
+    padding: 0% 40%;
+}
+.contain h3{
+    font-size: 24px;
+    width: 200%; 
+    color: white;
+    margin-left: -400px;
+}
+.img img{
+    width: 60%;
+    margin-left: 500px;
+}
+.img{
+    margin-top: -70px;  
+}
+.Copy-right h4{
+    color: #ffffff;
+    width: 200%;
+    font-size: 15px;
+    margin: 0px -40px;
+}
+.Copy-right h3{
+    color: white;
+    padding: 0px 36px;
+    width: 100%;
+    font-size: 14px;
+}
+
 @media only screen and (max-width:1050px) {
   header {
     height: 25%;
@@ -1036,7 +1181,7 @@
   }
 
   nav ul li a {
-    font-size: 9px;
+    font-size: 10px;
     line-height: 80px;
   }
 
@@ -1554,7 +1699,7 @@
            margin-top: -16px;
          }
          .middle-section {
-           background-image: url(image/2.png);
+          background-image: url(image/wallpaperflare.com_wallpaper\(3\).jpg);
            background-position: top;
            background-size: cover;
          }
@@ -1750,7 +1895,7 @@
        margin-top: -16px;
      }
      .middle-section {
-       background-image: url(image/2.png);
+     background-image: url(image/wallpaperflare.com_wallpaper\(3\).jpg);
        background-position: top;
        background-size: cover;
      }
@@ -1947,7 +2092,7 @@
      margin-top: -18px;
    }
    .middle-section {
-     background-image: url(image/2.png);
+     background-image: url(image/wallpaperflare.com_wallpaper\(3\).jpg);
      background-position: top;
      background-size: cover;
    }
@@ -1955,3 +2100,412 @@
 
   }
 }
+@media only screen and (max-width:300px) {
+  .ul {
+    display: none;
+  }
+
+  header {
+    height: 12%;
+  }
+
+  .display {
+    display: flex;
+  }
+
+  span {
+    display: flex;
+    margin-right: 170px;
+  }
+
+  .logo img {
+    display: none;
+  }
+
+  .logo {
+    display: none;
+  }
+
+  span img {
+    padding: 20px 15px;
+  }
+
+  span {
+    display: flex;
+    margin-left: 165px;
+  }
+
+  .middle-section h2 {
+    padding-top: 48%;
+    font-size: 27px;
+  }
+
+  .wrapper h2 {
+    font-size: 14px;
+  }
+
+  nav {
+    padding: 3px 10px;
+  }
+
+  .new-logo {
+    display: flex;
+  }
+
+  .you-tube {
+    display: none;
+  }
+
+  .content-area h2 {
+
+    padding-left: 0%;
+  }
+
+  .fa-caret-down {
+    float: right;
+    padding-right: 10px;
+  }
+
+  .Text-work {
+    margin-left: 5%;
+  }
+
+  .Text-work h1 {
+    font-size: 20px;
+    padding: 0px -9px;
+  }
+
+  .Text-work h1 {
+    color: var(--yellow);
+  }
+
+  .only-text {
+    padding: 5px 10px;
+    font-size: 17px;
+  }
+
+  .only-img {
+    margin-left: 32%;
+    background-color: transparent;
+    border-radius: 20px;
+    transition: 0.8s;
+
+  }
+
+  .only-img img {
+    width: 16%;
+    transition: 0.8s;
+    border-radius: 15px;
+    padding: 5px 35px;
+  }
+
+  .For-my-name {
+    padding: 40px 15px;
+    justify-content: space-between;
+  }
+
+  .For-my-name h3 {
+    font-size: 13.7px;
+  }
+
+  .For-my-name h4 {
+    float: right;
+    font-size: 13px;
+    display: none;
+  }
+
+  .border {
+    border-bottom: 1px solid #202125;
+    border-radius: 12px;
+  }
+
+  .Many-word {
+    padding: 0px 14px;
+  }
+
+  .Many-word h3 {
+    font-size: 14px;
+  }
+
+  .imp {
+    color: rgb(0, 68, 255);
+    border-radius: 2px;
+    font: bold;
+  }
+
+  .para-text h4 {
+    padding: 0px 15px;
+    margin-top: 50px;
+    font-size: 14px;
+    line-height: 110%;
+    color: #201f1f;
+  }
+
+  .para-2 h3 {
+    font-size: 14px;
+  }
+
+  .para-3 h3 {
+    font-size: 14px;
+  }
+
+  .bg-color {
+    background-color: #cacaca;
+    border-left: 6px solid #202125;
+    border-radius: 5px;
+    height: 120%;
+  }
+
+  .para-2 {
+    padding: 0px 15px;
+    margin-top: 30px;
+  }
+
+  .para-3 {
+    padding: 0px 20px;
+    margin-top: 30px;
+  }
+
+  .contain h3 {
+    font-size: 30px;
+    width: 200%;
+    color: white;
+    margin-left: -400px;
+    display: none;
+  }
+
+  .img img {
+    width: 100%;
+    margin-left: -5px;
+  }
+
+  .img {
+    margin-top: 5px;
+  }
+
+  .Copy-right h4 {
+    color: #ffffff;
+    width: 250%;
+    font-size: 8px;
+    margin-left: -30px;
+  }
+
+  .Copy-right h3 {
+    color: white;
+    padding: 0px 2px;
+    width: 200%;
+    font-size: 9px;
+    margin-top: -18px;
+  }
+
+  .middle-section {
+    background-image: url(image/wallpaperflare.com_wallpaper\(3\).jpg);
+    background-position: top;
+    background-size: cover;
+  }
+}
+@media only screen and (max-width:260px) {
+  .ul {
+    display: none;
+  }
+
+  header {
+    height: 12%;
+  }
+
+  .display {
+    display: flex;
+  }
+
+  span {
+    display: flex;
+    margin-right: 170px;
+  }
+
+  .logo img {
+    display: none;
+  }
+
+  .logo {
+    display: none;
+  }
+
+  span img {
+    padding: 20px 15px;
+  }
+
+  span {
+    display: flex;
+    margin-left: 165px;
+  }
+
+  .middle-section h2 {
+    padding-top: 48%;
+    font-size: 27px;
+  }
+
+  .wrapper h2 {
+    font-size: 14px;
+  }
+
+  nav {
+    padding: 3px 10px;
+  }
+
+  .new-logo {
+    display: flex;
+  }
+
+  .you-tube {
+    display: none;
+  }
+
+  .content-area h2 {
+
+    padding-left: 0%;
+  }
+
+  .fa-caret-down {
+    float: right;
+    padding-right: 10px;
+  }
+
+  .Text-work {
+    margin-left: 5%;
+  }
+
+  .Text-work h1 {
+    font-size: 20px;
+    padding: 0px -9px;
+  }
+
+  .Text-work h1 {
+    color: var(--yellow);
+  }
+
+  .only-text {
+    padding: 5px 10px;
+    font-size: 17px;
+  }
+
+  .only-img {
+    margin-left: 32%;
+    background-color: transparent;
+    border-radius: 20px;
+    transition: 0.8s;
+
+  }
+
+  .only-img img {
+    width: 16%;
+    transition: 0.8s;
+    border-radius: 15px;
+    padding: 5px 35px;
+  }
+
+  .For-my-name {
+    padding: 40px 15px;
+    justify-content: space-between;
+  }
+
+  .For-my-name h3 {
+    font-size: 13.7px;
+  }
+
+  .For-my-name h4 {
+    float: right;
+    font-size: 13px;
+    display: none;
+  }
+
+  .border {
+    border-bottom: 1px solid #202125;
+    border-radius: 12px;
+  }
+
+  .Many-word {
+    padding: 0px 14px;
+  }
+
+  .Many-word h3 {
+    font-size: 14px;
+  }
+
+  .imp {
+    color: rgb(0, 68, 255);
+    border-radius: 2px;
+    font: bold;
+  }
+
+  .para-text h4 {
+    padding: 0px 15px;
+    margin-top: 50px;
+    font-size: 14px;
+    line-height: 110%;
+    color: #201f1f;
+  }
+
+  .para-2 h3 {
+    font-size: 14px;
+  }
+
+  .para-3 h3 {
+    font-size: 14px;
+  }
+
+  .bg-color {
+    background-color: #cacaca;
+    border-left: 6px solid #202125;
+    border-radius: 5px;
+    height: 120%;
+  }
+
+  .para-2 {
+    padding: 0px 15px;
+    margin-top: 30px;
+  }
+
+  .para-3 {
+    padding: 0px 20px;
+    margin-top: 30px;
+  }
+
+  .contain h3 {
+    font-size: 30px;
+    width: 200%;
+    color: white;
+    margin-left: -400px;
+    display: none;
+  }
+
+  .img img {
+    width: 100%;
+    margin-left: -5px;
+  }
+
+  .img {
+    margin-top: 5px;
+  }
+
+  .Copy-right h4 {
+    color: #ffffff;
+    width: 250%;
+    font-size: 8px;
+    margin-left: -30px;
+  }
+
+  .Copy-right h3 {
+    color: white;
+    padding: 0px 2px;
+    width: 200%;
+    font-size: 9px;
+    margin-top: -18px;
+  }
+
+  .middle-section {
+    background-image: url(image/wallpaperflare.com_wallpaper\(3\).jpg);
+    background-position: top;
+    background-size: cover;
+  }
+}
+
